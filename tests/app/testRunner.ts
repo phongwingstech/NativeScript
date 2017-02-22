@@ -31,9 +31,9 @@ export var allTests = {};
 
 allTests["PLATFORM"] = require("./platform-tests");
 allTests["FILE SYSTEM"] = require("./file-system-tests");
-allTests["HTTP"] = require("./http-tests");
+//allTests["HTTP"] = require("./http-tests");
 allTests["XHR"] = require("./xhr-tests");
-allTests["FETCH"] = require("./fetch-tests");
+//allTests["FETCH"] = require("./fetch-tests");
 allTests["APPLICATION SETTINGS"] = require("./application-settings-tests");
 allTests["APPLICATION"] = require("./application-tests");
 allTests["IMAGE SOURCE"] = require("./image-source-tests");
